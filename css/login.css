@@ -1,0 +1,147 @@
+.login_register_wrap
+{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -ms-flex-align:center;
+    align-items:center;
+    position:relative;
+}
+.login_wrap{
+    margin-top: 50px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    margin-bottom: 50px;
+}
+#error_message{
+  margin-bottom: 20px;
+ 
+  padding: 0px;
+  text-align: center;
+    color:  #fd0000;
+  font-size: 16px;
+  transition: all 0.5s ease;
+
+
+}
+
+.justify-content-center{
+    -ms-flex-pack:center!important;
+    justify-content:center!important;
+}
+.padding_eight_all{
+    padding:8%;
+}
+.padding_eight_all img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.heading_s1{
+    margin-bottom:25px;
+}
+.heading_s1 h3{
+    font-weight:700;margin:0;
+    text-transform:capitalize;
+}
+
+.form-control-login
+{
+    width: 100%;
+    color:#000;
+    box-shadow:none;
+    height:50px;
+    padding:8px 15px;
+}
+.form-control-login:focus
+{
+    border-style: solid;
+    border-color: greenyellow;
+    color:#000;
+    box-shadow:none;
+    height:50px;
+}
+.login_footer{
+    
+    margin-bottom:20px;
+    margin-top:5px;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    width:100%;
+}
+.login_footer a{
+    color:#687188;
+}
+
+.different_login{
+    text-align:center;
+    position:relative;
+    margin:20px 0;
+}
+.different_login span{
+    background-color:#fff;
+    padding:0 15px;
+    position:relative;
+    text-transform:uppercase;
+}
+.different_login::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:50%;
+    right:0;
+    border-top:1px solid #ddd;
+    -moz-transform:translateY(-50%);
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+.form-note{
+    margin-top:20px;
+}
+.form-note a{
+    color: darkgreen;
+}
+
+@media only screen and (max-width: 991px){
+    .heading_s1{
+        margin-bottom:20px;
+    }
+    .padding_eight_all{
+    padding:6%;
+    }
+}
+
+@media only screen and (max-width: 575px){
+.form-control-login,.form-control-login:focus{
+    height:44px;
+    }
+.heading_s1{
+    margin-bottom:15px;
+    }
+
+}
+@media only screen and (max-width: 480px){
+.heading_s1 h3{
+    line-height:30px;
+    }
+
+}
+@media only screen and (max-width: 380px){
+
+.form-control-login,.form-control-login:focus{
+    height:40px;
+    }
+.form-control-login{
+    font-size:14px;
+    }
+    
+.login_footer a{
+    font-size:13px;
+    }
+
+}
