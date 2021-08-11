@@ -385,18 +385,18 @@ s0.parentNode.insertBefore(s1,s0);
             <script>
             alert('Something went wrong, Please Try Again - Thankyou!');
             </script>
-
             ";
+            console.log($mail);
         } 
         else 
         {
 
-            //echo "
-            //<script>
-            //alert('We have sent you the verification code - Thankyou!');
-            //</script>
+            echo "
+            <script>
+            alert('We have sent you the verification code - Thankyou!');
+            </script>
 
-            //";
+            ";
 
         }
     }
