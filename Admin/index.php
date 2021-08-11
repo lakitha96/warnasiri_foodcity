@@ -23,7 +23,7 @@ else
         $recordYear = $_POST['txtChartYear'];
         if($recordYear == null || $recordYear == "")
         {
-            $conChart = mysqli_connect("localhost","root","","dayaStore");
+            $conChart = mysqli_connect("helpme-mysql-service.mysql.database.azure.com", "adminuser", "lakitha@21", "dayastore", 3306, MYSQLI_CLIENT_SSL);
             $maxYearRecord = mysqli_fetch_assoc(mysqli_query($conChart,"SELECT MAX(YEAR(`order_date`)) as maxYear FROM tbl_sales_order"));
             $maxYear = $maxYearRecord['maxYear'];
             $recordYear = $maxYear;
@@ -32,7 +32,7 @@ else
     }
     else
     {
-        $conChart = mysqli_connect("localhost","root","","dayaStore");
+        $conChart = mysqli_connect("helpme-mysql-service.mysql.database.azure.com", "adminuser", "lakitha@21", "dayastore", 3306, MYSQLI_CLIENT_SSL);
         $maxYearRecord = mysqli_fetch_assoc(mysqli_query($conChart,"SELECT MAX(YEAR(`order_date`)) as maxYear FROM tbl_sales_order"));
         $maxYear = $maxYearRecord['maxYear'];
         $recordYear = $maxYear;
