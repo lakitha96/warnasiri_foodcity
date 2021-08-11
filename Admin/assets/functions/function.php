@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost","root","","dayaStore");
+$db = mysqli_connect("helpme-mysql-service.mysql.database.azure.com", "adminuser", "lakitha@21", "dayastore", 3306, MYSQLI_CLIENT_SSL);
 
 function getAllProducts(){
     
@@ -475,8 +475,8 @@ function citytot()
 function getChartsDetails($year)
 {
     $yearRecords = $year;
-    $conChart = mysqli_connect("localhost","root","","dayaStore");
-    
+    $conChart = mysqli_connect("helpme-mysql-service.mysql.database.azure.com", "adminuser", "lakitha@21", "dayastore", 3306, MYSQLI_CLIENT_SSL);
+
     $janMonthSalesQuery = "SELECT sum(`total`)as profit FROM tbl_sales_order WHERE YEAR(`order_date`)='$yearRecords' AND month(`order_date`)=1 AND `order_status`=4 ORDER by `s_orderId`";
     $getJanTotSales = mysqli_fetch_assoc(mysqli_query($conChart,$janMonthSalesQuery));
     $jan = $getJanTotSales['profit'];
@@ -1510,7 +1510,7 @@ function getAllRejectedCompletedOrders()
 function getChartsDetailsSave($year)
 {
     $yearRecords = $year;
-    $conChart = mysqli_connect("localhost","root","","dayaStore");
+    $conChart = mysqli_connect("helpme-mysql-service.mysql.database.azure.com", "adminuser", "lakitha@21", "dayastore", 3306, MYSQLI_CLIENT_SSL);
     
     $janMonthSalesQuery = "SELECT sum(`total`)as profit FROM tbl_sales_order WHERE YEAR(`order_date`)='$yearRecords' AND month(`order_date`)=1 AND `order_status`=4 ORDER by `s_orderId`";
     $getJanTotSales = mysqli_fetch_assoc(mysqli_query($conChart,$janMonthSalesQuery));
@@ -1739,7 +1739,7 @@ function getChartsDetailsSave($year)
 function getChartsTitle($year)
 {
     $yearRecords = $year;
-    $conChart = mysqli_connect("localhost","root","","dayaStore");
+    $conChart = mysqli_connect("helpme-mysql-service.mysql.database.azure.com", "adminuser", "lakitha@21", "dayastore", 3306, MYSQLI_CLIENT_SSL);
     
     $janMonthSalesQuery = "SELECT sum(`total`)as profit FROM tbl_sales_order WHERE YEAR(`order_date`)='$yearRecords' AND month(`order_date`)=1 AND `order_status`=4 ORDER by `s_orderId`";
     $getJanTotSales = mysqli_fetch_assoc(mysqli_query($conChart,$janMonthSalesQuery));
