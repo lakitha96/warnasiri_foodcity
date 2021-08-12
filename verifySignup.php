@@ -53,7 +53,7 @@ else
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
-      <title>දයා Store</title>
+      <title>Warnasiri FoodCity</title>
       <!-- Favicon Icon -->
       <link rel="icon" type="image/png" href="img/dayaStoreLogo.png">
       <!-- Bootstrap core CSS -->
@@ -351,9 +351,9 @@ s0.parentNode.insertBefore(s1,s0);
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->SMTPAuth = true;
         $mail->Username = 'warnasirifoodcity@gmail.com';
-        $mail->Password = 'warnasiri@2021';
+        $mail->Password = 'xuuqbepniuwgtxvg';
         $mail->setFrom('warnasirifoodcity@gmail.com', 'Warnasiri FoodCity');
-        $mail->addReplyTo('customercare@dayastores.com', 'Warnasiri FoodCity');
+        $mail->addReplyTo('warnasirifoodcity@gmail.com', 'Warnasiri FoodCity');
         $mail->addAddress($email);
         $mail->Subject = 'Welecome to Warnasiri FoodCity!';
 
@@ -380,14 +380,13 @@ s0.parentNode.insertBefore(s1,s0);
         //send the message, check for errors
         if (!$mail->send()) 
         {
-            //echo 'Mailer Error: '. $mail->ErrorInfo;
+            echo 'Mailer Error: '. $mail->ErrorInfo;
             echo "
             <script>
             alert('Something went wrong, Please Try Again - Thankyou!');
             </script>
             ";
-            console.log($mail);
-        } 
+        }
         else 
         {
 
