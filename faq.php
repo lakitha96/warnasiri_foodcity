@@ -17,9 +17,9 @@ if(isset($_SESSION['customerId']))
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       
-      <title>දයා Store</title>
+      <title>Warnasiri FoodCity</title>
       <!-- Favicon Icon -->
-      <link rel="icon" type="image/png" href="img/WarnasiriIconLogo.jpeg">
+      <link rel="icon" type="image/png" href="img/WarnasiriLogo.png">
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <!-- Material Design Icons -->
@@ -49,7 +49,7 @@ if(isset($_SESSION['customerId']))
       </div>
       <nav class="navbar navbar-light navbar-expand-lg bg-dark bg-faded daya-menu">
          <div class="container-fluid">
-            <a class="navbar-brand" href="index.php"> <img src="img/WarnasiriLogo.png"> </a>
+            <a class="navbar-brand" href="index.php"> <img src="img/WarnasiriIconLogo.jpeg"> </a>
 			<a class="location-top" href="#"><i class="mdi mdi-map-marker-circle" aria-hidden="true"></i> Sri Lanka</a>
             <button class="navbar-toggler navbar-toggler-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -177,7 +177,7 @@ if(isset($_SESSION['customerId']))
          <div class="container">
             <div class="row">
                <div class="col-lg-3 col-md-3">
-                  <h4 class="mb-5 mt-0"><a class="logo" href="index.php"><img src="img/WarnasiriLogo.png">  </a></h4>
+                  <h4 class="mb-5 mt-0"><a class="logo" href="index.php"><img src="img/WarnasiriIconLogo.jpeg">  </a></h4>
                   <p class="mb-0"><a class="text-dark" href="#"><i class="mdi mdi-phone"></i> +94 719 039 314</a></p>
                   <p class="mb-0"><a class="text-dark" href="#"><i class="mdi mdi-cellphone-iphone"></i> +94 71 303 0928, +94 71 903 9314</a></p>
                   <p class="mb-0"><a class="text-success" href="#"><i class="mdi mdi-email"></i> ashenvp1@gmail.com</a></p>

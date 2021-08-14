@@ -19,7 +19,7 @@ if(isset($_SESSION['customerId']))
       
       <title>Warnasiri FoodCity</title>
       <!-- Favicon Icon -->
-      <link rel="icon" type="image/png" href="img/WarnasiriIconLogo.jpeg">
+      <link rel="icon" type="image/png" href="img/WarnasiriLogo.png">
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <!-- Material Design Icons -->

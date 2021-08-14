@@ -41,7 +41,7 @@ else
 
             $mail->msgHTML("<body>
                     <div style='background-color: #55aa1b; height: 52px;'>
-                        <h2 style='padding-top:10px;'>දයා Stores</h2>
+                        <h2 style='padding-top:10px;'>Warnasiri FoodCity</h2>
                     </div>
                     
                     <h3 style='color: orange'>

@@ -40,7 +40,7 @@ else
 <head>
         
         <meta charset="utf-8" />
-        <title>දයා Stores | Admin </title>
+        <title>Warnasiri FoodCity | Admin </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
        
         <!-- App favicon -->
