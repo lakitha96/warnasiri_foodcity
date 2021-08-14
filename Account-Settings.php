@@ -648,7 +648,7 @@ $mail->Port = 587;
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->SMTPAuth = true;
 $mail->Username = 'warnasirifoodcity@gmail.com';
-$mail->Password = 'warnasiri@2021';
+$mail->Password = 'xuuqbepniuwgtxvg';
 $mail->setFrom('warnasirifoodcity@gmail.com', 'Warnasiri FoodCity');
 $mail->addReplyTo('warnasirifoodcity@gmail.com', 'Warnasiri FoodCity');
 $mail->addAddress($newEmail);

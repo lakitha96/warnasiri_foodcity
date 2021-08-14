@@ -40,8 +40,8 @@ if(isset($_SESSION['customerId']))
             <div class="row">
                <div class="col-lg-12 text-center">
                   <a href="shop.php" class="mb-0 text-white">
-                  Free delivery for orders above <strong><span class="text-light">LKR 5000</span></strong> in Piliyandala area. <br>
-                Delivery service operates only in and around <strong><span>Piliyandala area.</span></strong>
+                  Free delivery for orders above <strong><span class="text-light">LKR 5000</span></strong> in Galle area. <br>
+                Delivery service operates only in and around <strong><span>Galle area.</span></strong>
                   </a>
                </div>
             </div>

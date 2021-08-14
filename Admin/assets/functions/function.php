@@ -317,11 +317,11 @@ function getTotalCustomers()
     echo "$cus_Count";
 }
 
-function citypiliyandala()
+function cityGalle()
     
 {global $db;
     
-    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='piliyandala' AND `order_status`=4";
+    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='Galle' AND `order_status`=4";
      $queryResults = mysqli_query($db,$query);
      $row_Catogory=mysqli_fetch_array($queryResults);
     
@@ -415,11 +415,11 @@ function progressMoratuwa(){
 }
 
 
-function cityKesbewa()
+function cityAmbalangoda()
     
 {global $db;
     
-    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='Kesbewa' AND `order_status`=4";
+    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='Ambalangoda' AND `order_status`=4";
      $queryResults = mysqli_query($db,$query);
      $row_Catogory=mysqli_fetch_array($queryResults);
     
@@ -428,11 +428,11 @@ function cityKesbewa()
      
      
 }
-function cityMoratuwa()
+function cityElpitiya()
     
 {global $db;
     
-    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='Moratuwa' AND `order_status`=4";
+    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='Elpitiya' AND `order_status`=4";
      $queryResults = mysqli_query($db,$query);
      $row_Catogory=mysqli_fetch_array($queryResults);
     
@@ -441,11 +441,11 @@ function cityMoratuwa()
      
      
 }
-function cityBoralasgamuwa()
+function cityKarandeniya()
     
 {global $db;
     
-    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='Boralasgamuwa' AND `order_status`=4";
+    $query="SELECT COUNT(`s_orderId`)as tot FROM tbl_sales_order WHERE `cus_city`='Karandeniya' AND `order_status`=4";
      $queryResults = mysqli_query($db,$query);
      $row_Catogory=mysqli_fetch_array($queryResults);
     

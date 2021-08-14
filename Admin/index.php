@@ -137,11 +137,11 @@ else
                                                 <tbody>
                                                     <tr>
                                                         <td style="width: 30%">
-                                                            <p class="mb-0">Piliyandala</p>
+                                                            <p class="mb-0">Galle</p>
                                                         </td>
                                                         <td style="width: 25%">
                                                             <h5 class="mb-0"><?php
-                                                         citypiliyandala();
+                                                         cityGalle();
                                                             ?></h5></td>
                                                         <td>
                                                             <div class="progress bg-transparent progress-sm">
@@ -151,10 +151,10 @@ else
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <p class="mb-0">Kesbewa</p>
+                                                            <p class="mb-0">Ambalangoda</p>
                                                         </td>
                                                         <td>
-                                                            <h5 class="mb-0"><?php cityKesbewa() ?></h5>
+                                                            <h5 class="mb-0"><?php cityAmbalangoda() ?></h5>
                                                         </td>
                                                         <td>
                                                             <div class="progress bg-transparent progress-sm">
@@ -164,10 +164,10 @@ else
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <p class="mb-0">Moratuwa</p>
+                                                            <p class="mb-0">Elpitiya</p>
                                                         </td>
                                                         <td>
-                                                            <h5 class="mb-0"><?php cityMoratuwa() ?></h5>
+                                                            <h5 class="mb-0"><?php cityElpitiya() ?></h5>
                                                         </td>
                                                         <td>
                                                             <div class="progress bg-transparent progress-sm">
@@ -177,10 +177,10 @@ else
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <p class="mb-0">Boralasgamuwa</p>
+                                                            <p class="mb-0">Karandeniya</p>
                                                         </td>
                                                         <td>
-                                                            <h5 class="mb-0"><?php  cityBoralasgamuwa()?> </h5>
+                                                            <h5 class="mb-0"><?php  cityKarandeniya()?> </h5>
                                                         </td>
                                                         <td>
                                                             <div class="progress bg-transparent progress-sm">
