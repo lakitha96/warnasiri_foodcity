@@ -26,7 +26,7 @@ if(isset($_POST['btnVerifyFogotEmail'])){
       
       <title>දයා Store</title>
       <!-- Favicon Icon -->
-      <link rel="icon" type="image/png" href="img/dayaStoreLogo.png">
+      <link rel="icon" type="image/png" href="img/WarnasiriIconLogo.jpeg">
       <!-- Bootstrap core CSS -->
       <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <!-- Material Design Icons -->
@@ -62,7 +62,7 @@ if(isset($_POST['btnVerifyFogotEmail'])){
       </div>
       <nav class="navbar navbar-light navbar-expand-lg bg-dark bg-faded daya-menu">
          <div class="container-fluid">
-            <a class="navbar-brand" href="index.php"> <img src="img/Daya.png"> </a>
+            <a class="navbar-brand" href="index.php"> <img src="img/WarnasiriLogo.png"> </a>
 			<a class="location-top" href="#"><i class="mdi mdi-map-marker-circle" aria-hidden="true"></i> Sri Lanka</a>
             <button class="navbar-toggler navbar-toggler-white" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

@@ -1140,7 +1140,7 @@ function printBillPdf($cartId)
                                         <div class="invoice-title">
                                             <h4 class="float-right font-size-16">Order # '.$orderID.'</h4>
                                             <div class="mb-4">
-                                                <img src="assets/images/Daya.png" alt="logo" height="45"/>
+                                                <img src="assets/images/WarnasiriIconLogo.jpeg" alt="logo" height="45"/>
                                             </div>
                                         </div>
                                         <hr>
@@ -2174,7 +2174,7 @@ function printPurchaseOrderPdf($purchaseID,$productName)
             <div class='invoice-title'>
                                             <h4 class='float-right font-size-16'>Purchase Order # $purOrdId</h4>
                                             <div class='mb-4'>
-                                                <img src='assets/images/Daya.png' alt='logo' height='45'/>
+                                                <img src='assets/images/WarnasiriIconLogo.jpeg' alt='logo' height='45'/>
                                             </div>
                                         </div>
                                 
@@ -2247,7 +2247,7 @@ function purchaseOrderCompletionGrn($purOrder)
                                         <div class='invoice-title'>
                                             <h4 class='float-right font-size-14'>Purchase Order Id # $purchasseOrderNo</h4>
                                             <div class='mb-4'>
-                                                <img src='assets/images/Daya.png' alt='logo' height='40'/>
+                                                <img src='assets/images/WarnasiriIconLogo.jpeg' alt='logo' height='40'/>
                                             </div>
                                         </div>
                                         <hr>
@@ -2334,7 +2334,7 @@ function printGrn($purOrder,$summery)
                                         <div class='invoice-title'>
                                             <h4 class='float-right font-size-14'>Purchase Order Id # $purchasseOrderNo</h4>
                                             <div class='mb-4'>
-                                                <img src='assets/images/Daya.png' alt='logo' height='40'/>
+                                                <img src='assets/images/WarnasiriIconLogo.jpeg' alt='logo' height='40'/>
                                             </div>
                                         </div>
                                         <hr>
@@ -2497,7 +2497,7 @@ function viewPurchaseOrderBill($purchaseID)
             <div class='invoice-title'>
                                             <h4 class='float-right font-size-16'>Purchase Order # $purOrdId</h4>
                                             <div class='mb-4'>
-                                                <img src='assets/images/Daya.png' alt='logo' height='45'/>
+                                                <img src='assets/images/WarnasiriIconLogo.jpeg' alt='logo' height='45'/>
                                             </div>
                                         </div>
                                 
@@ -2574,7 +2574,7 @@ function viewGrnDetail($purOrder)
                                         <div class='invoice-title'>
                                             <h4 class='float-right font-size-14'>Purchase Order Id # $purchasseOrderNo</h4>
                                             <div class='mb-4'>
-                                                <img src='assets/images/Daya.png' alt='logo' height='40'/>
+                                                <img src='assets/images/WarnasiriIconLogo.jpeg' alt='logo' height='40'/>
                                             </div>
                                         </div>
                                         <hr>
@@ -2722,7 +2722,7 @@ function printReturnPurchaseOrderPdf($purchaseID,$returnID)
             <div class='invoice-title'>
                                             <h4 class='float-right font-size-16'>Purchase Return Order # $returnPurchaseID</h4>
                                             <div class='mb-4'>
-                                                <img src='assets/images/Daya.png' alt='logo' height='45'/>
+                                                <img src='assets/images/WarnasiriIconLogo.jpeg' alt='logo' height='45'/>
                                             </div>
                                         </div>
                                 
@@ -3011,7 +3011,7 @@ function viewReturnPurchaseOrderPdf($purchaseID,$returnID)
             <div class='invoice-title'>
                                             <h4 class='float-right font-size-16'>Purchase Return Order # $returnPurchaseID</h4>
                                             <div class='mb-4'>
-                                                <img src='assets/images/Daya.png' alt='logo' height='45'/>
+                                                <img src='assets/images/WarnasiriIconLogo.jpeg' alt='logo' height='45'/>
                                             </div>
                                         </div>
                                 
