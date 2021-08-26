@@ -272,57 +272,57 @@ else{
                                           <select name="userCity" class="select2 form-control border-form-control" id="cityid">
                                             <?php
                                                 
-                                                  if($customerCity=="Piliyandala")
+                                                  if($customerCity=="Galle")
                                                  {
                                                      echo "
-                                                    <option   value=''>Select City</option>
-                                                    <option selected value='Piliyandala'>Piliyandala</option>
-                                                    <option value='Kesbewa'>Kesbewa</option>
-                                                    <option value='Mortuwa'>Mortuwa</option>
-                                                    <option value='Boralasgamuwa'>Boralasgamuwa</option>
+                                                     <option   value=''>Select City</option>
+                                                    <option selected value='Galle'>Galle</option>
+                                                    <option value='Hikkaduwa'>Hikkaduwa</option>
+                                                    <option value='Ambalangoda'>Ambalangoda</option>
+                                                    <option value='Karandeniya'>Karandeniya</option>
                                                     
                                                     ";
                                                  }
-                                                 else if($customerCity=="Kesbewa")
+                                                 else if($customerCity=="Hikkaduwa")
                                                  {
                                                       echo "
                                                     <option   value=''>Select City</option>
-                                                    <option  value='Piliyandala'>Piliyandala</option>
-                                                    <option selected value='Kesbewa'>Kesbewa</option>
-                                                    <option value='Mortuwa'>Mortuwa</option>
-                                                    <option value='Boralasgamuwa'>Boralasgamuwa</option>
+                                                    <option selected value='Galle'>Galle</option>
+                                                    <option value='Hikkaduwa'>Hikkaduwa</option>
+                                                    <option value='Ambalangoda'>Ambalangoda</option>
+                                                    <option value='Karandeniya'>Karandeniya</option>
                                                     
                                                     ";
                                                  }
-                                                 else if($customerCity=="Mortuwa")
+                                                 else if($customerCity=="Ambalangoda")
                                                  {
                                                       echo "
-                                                    <option   value=''>Select City</option>
-                                                    <option  value='Piliyandala'>Piliyandala</option>
-                                                    <option  value='Kesbewa'>Kesbewa</option>
-                                                    <option selected value='Mortuwa'>Mortuwa</option>
-                                                    <option value='Boralasgamuwa'>Boralasgamuwa</option>
+                                                     <option   value=''>Select City</option>
+                                                    <option selected value='Galle'>Galle</option>
+                                                    <option value='Hikkaduwa'>Hikkaduwa</option>
+                                                    <option value='Ambalangoda'>Ambalangoda</option>
+                                                    <option value='Karandeniya'>Karandeniya</option>
                                                     
                                                     ";
                                                  }
-                                                 else if($customerCity=="Boralasgamuwa")
+                                                 else if($customerCity=="Karandeniya")
                                                  {
                                                      echo "
-                                                    <option   value=''>Select City</option>
-                                                    <option  value='Piliyandala'>Piliyandala</option>
-                                                    <option  value='Kesbewa'>Kesbewa</option>
-                                                    <option  value='Mortuwa'>Mortuwa</option>
-                                                    <option selected value='Boralasgamuwa'>Boralasgamuwa</option>
+                                                     <option   value=''>Select City</option>
+                                                    <option selected value='Galle'>Galle</option>
+                                                    <option value='Hikkaduwa'>Hikkaduwa</option>
+                                                    <option value='Ambalangoda'>Ambalangoda</option>
+                                                    <option value='Karandeniya'>Karandeniya</option>
                                                     
                                                     ";
                                                  }
                                                  else{
                                                       echo "
-                                                    <option  selected value=''>Select City</option>
-                                                    <option  value='Piliyandala'>Piliyandala</option>
-                                                    <option  value='Kesbewa'>Kesbewa</option>
-                                                    <option  value='Mortuwa'>Mortuwa</option>
-                                                    <option  value='Boralasgamuwa'>Boralasgamuwa</option>
+                                                    <option   value=''>Select City</option>
+                                                    <option selected value='Galle'>Galle</option>
+                                                    <option value='Hikkaduwa'>Hikkaduwa</option>
+                                                    <option value='Ambalangoda'>Ambalangoda</option>
+                                                    <option value='Karandeniya'>Karandeniya</option>
                                                     
                                                     ";
                                                  }

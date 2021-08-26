@@ -18,8 +18,8 @@
                         <span>General Settings</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="slider-details.php">Sliders Settings</a></li>
-                        <li><a href="advertise-details.php">Advertisements</a></li>
+<!--                        <li><a href="slider-details.php">Sliders Settings</a></li>-->
+<!--                        <li><a href="advertise-details.php">Advertisements</a></li>-->
                         <li><a href="list-box.php">List Boxes</a></li>
                         
                     </ul>
