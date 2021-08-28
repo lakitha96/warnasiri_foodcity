@@ -23,21 +23,21 @@
 
                         
 
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item waves-effect"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="language">
-                                <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-right">
-                    
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle" title="language">English</span>
-                                </a>
-
-                                
-                            </div>
-                        </div>
+<!--                        <div class="dropdown d-inline-block">-->
+<!--                            <button type="button" class="btn header-item waves-effect"-->
+<!--                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="language">-->
+<!--                                <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16">-->
+<!--                            </button>-->
+<!--                            <div class="dropdown-menu dropdown-menu-right">-->
+<!--                    -->
+<!--                                <!-- item-->-->
+<!--                                <a href="javascript:void(0);" class="dropdown-item notify-item">-->
+<!--                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle" title="language">English</span>-->
+<!--                                </a>-->
+<!---->
+<!--                                -->
+<!--                            </div>-->
+<!--                        </div>-->
 
                         
 
@@ -49,19 +49,19 @@
 
                         <div class="dropdown d-inline-block">
                           
-                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                 <i class="bx bx-bell bx-tada" title="New Orders"></i>
-                                <span class="badge badge-danger badge-pill"  >
-                                    <?php
-                                    
-                                    getNewOrdersNotification();
-                                    
-                                    ?>
-                                    
-                                    
-                                </span>
-                            </button>
+<!--                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"-->
+<!--                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+<!--                                 <i class="bx bx-bell bx-tada" title="New Orders"></i>-->
+<!--                                <span class="badge badge-danger badge-pill"  >-->
+<!--                                    --><?php
+//
+//                                    getNewOrdersNotification();
+//
+//                                    ?>
+<!--                                    -->
+<!--                                    -->
+<!--                                </span>-->
+<!--                            </button>-->
                             
                         </div>
 
