@@ -173,14 +173,14 @@ require 'vendor/autoload.php';
                <div class="col-lg-4 col-md-4">
                   <h3 class="mt-1 mb-5">Get In Touch</h3>
                   <h6 class="text-dark"><i class="mdi mdi-home-map-marker"></i> Address :</h6>
-                  <p>No 153, Moratuwa rd, Piliyandala, Sri Lanka</p>
+                  <p>Warnasiri Foodcity,Koswathumanana, Karandeniya</p>
                   <h6 class="text-dark"><i class="mdi mdi-phone"></i> Phone :</h6>
-                  <p>+94 71 303 0928, +94 71 903 9314</p>
+                  <p>+94778000073</p>
                   
                   <h6 class="text-dark"><i class="mdi mdi-email"></i> Email :</h6>
-                  <p> Dayastoresinfo@gmail.com</p>
+                  <p> warnasiri1996@gmail.com</p>
                   <h6 class="text-dark"><i class="mdi mdi-link"></i> Website :</h6>
-                  <p>www.dayastore.com</p>
+                  <p>www.warnasirifoodcity.com</p>
                   <div class="footer-social"><span>Follow : </span>
                      <a href="#"><i class="mdi mdi-facebook"></i></a>
                      <a href="#"><i class="mdi mdi-twitter"></i></a>
@@ -191,8 +191,7 @@ require 'vendor/autoload.php';
                <div class="col-lg-8 col-md-8">
                   <div class="card">
                      <div class="card-body">
-                         
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.7752606960767!2d79.9142659508024!3d6.797175321781802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2455efd544c7d%3A0x41dbf05aae8d7459!2sSuwarapola%20East%2C%20Piliyandala!5e0!3m2!1sen!2slk!4v1589224125617!5m2!1sen!2slk" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15863.785224737154!2d80.08086731490722!3d6.270791777378633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae181d2d5030051%3A0x4ca48deb1176537!2sKarandeniya!5e0!3m2!1sen!2slk!4v1630122833666!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                      </div>
                   </div>
                </div>

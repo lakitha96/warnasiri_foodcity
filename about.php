@@ -198,7 +198,7 @@ if(isset($_SESSION['customerId']))
                      <p class="mb-4">If you’re already innately good at something, or have a skillset, embrace it. Don’t try to be all things for all aspects of your business. Hire out or sign contracts with agencies for the things you can’t do, and focus on your strengths as quickly and often as possible. Don’t be a jack-of-all-trades and a master of none.
 
 </p>
-                     <h6 class="mb-0 text-success">- Thissa Perera</h6>
+                     <h6 class="mb-0 text-success">-I D Warnasiri</h6>
                      <small>Owner</small>
                   </div>
                </div>
