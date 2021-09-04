@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://helpme-mysql-service.mysql.database.azure.com:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="paid-mysql-research.mysql.database.azure.com" uuid="6a8f5e26-52f9-4e17-a31a-01c3ab476aa5">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://paid-mysql-research.mysql.database.azure.com:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

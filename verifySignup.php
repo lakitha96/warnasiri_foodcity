@@ -1,3 +1,10 @@
+/*
+* This verifyPHP will work as application extra security layer to avoid
+* fake users to register to the system.
+*
+* Following code will generate random number and send to the particular user to verify it by the client end.
+*/
+
 <?php
 session_start();
 include("assets/functions.php");

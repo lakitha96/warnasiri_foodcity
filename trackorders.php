@@ -1,3 +1,8 @@
+/*
+* Following code will provide track order option to user.
+* User need to provide OrderID as param to search order.
+*/
+
 <?php
 session_start();
 //session_destroy();
